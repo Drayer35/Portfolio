@@ -1,0 +1,7 @@
+.transition-top {
+    transition: top 0.3s ease-in-out;
+}
+#navegator{
+    top: 0;
+    transition: top 1s;
+}
