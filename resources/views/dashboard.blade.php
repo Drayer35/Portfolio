@@ -1,5 +1,4 @@
 @section('title-section', 'Franco Monrroy Saravia')
-{{-- <div id="particles-js" class="fixed inset-0 z-[-1] bg-white h-screen dark:bg-[#11151A]"></div> --}}
 <x-app-layout>
     <div id="particles-js" class="fixed inset-0 z-[-1] bg-white h-screen dark:bg-[#11151A]"></div>
     <div class="h-screen w-full">
@@ -24,9 +23,8 @@
         </section>
         <section id="contact-me" class= "grid  place-items-center w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <p class="font-bold text-2xl text-[#544848] dark:text-[#CCCBCB]   sm:text-3xl md:text-4xl lg:text-6xl my-4">
-                {{ __('Contact') }}
+                @livewire('info.contact')
             </p>
-        
         </section>
         <footer id="footer"
             class=" w-full font-bold max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center text-[#008CFF] dark:text-[#08C68D] m-5">
